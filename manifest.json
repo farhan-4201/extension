@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Full-Screen Popup Extension",
+    "version": "1.0",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Open Full-Screen Popup"
+    },
+    "permissions": ["activeTab"],
+    "icons": {
+      "16": "icon-16.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    }
+  }
+  
